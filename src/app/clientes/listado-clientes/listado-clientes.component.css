@@ -1,0 +1,38 @@
+article {
+  width: 90%;
+  max-height: 450px;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #aaa;
+  padding: 10px;
+  font-size: .9rem;
+  overflow-y: scroll;
+}
+.titulosTabla{
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+}
+
+.titulosTabla span{
+  font-size: .9rem;
+  width: 20%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+span {
+  display: inline-block;
+  width: 25%;
+  margin-right: 2%;
+  text-align: center;
+  font-weight: 100;
+}
+
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #182848;
+}

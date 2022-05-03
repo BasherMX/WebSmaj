@@ -1,0 +1,36 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 7rem;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    outline: 2px solid green;
+}
+
+app-alta-cliente, app-listado-clientes{
+    margin: 0;
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgba(0 0 0 /20%);
+    text-align: center;
+}
+
+app-alta-cliente{
+    width: 38%;
+    min-width: 400px;
+    padding: 1.5rem 3rem;
+    transform: scale(1.2);
+    position: relative;
+}
+
+
+
+app-listado-clientes{
+    width: 53%;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+

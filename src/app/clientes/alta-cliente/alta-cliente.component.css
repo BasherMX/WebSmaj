@@ -1,0 +1,79 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #182848;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+}
+
+p span{
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+p input, p select{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #e1e1e1;
+    color: #111;
+    padding: 0 2rem;
+}
+
+p input:focus, p select:focus{
+    outline: 3px solid #4b6cb7;
+}
+
+p button{
+    width: 200px;
+    padding: .7rem 2.3rem;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: none;
+    background: #182848;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+p button:hover{
+    background: #253c69;
+}
+
+p button:active{
+    transform: scale(1.1);
+}
+
+img{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(40%, 35%) rotate(5deg);
+    filter: drop-shadow(10px 0px 10px rgba(0 0 0 /30%));
+}
+
+.tituloDejando{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -200%);
+
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin: 1rem 0;
+    color: #fff;
+    text-transform: uppercase;
+}

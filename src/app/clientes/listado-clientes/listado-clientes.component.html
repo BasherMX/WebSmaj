@@ -1,0 +1,19 @@
+<h2>
+  Listado clientes
+</h2>
+
+<div *ngIf="! clientes.length">No hay clientes por el momento</div>
+<div>
+  <div *ngIf="clientes.length" class="titulosTabla">
+    <span>Nombre</span>
+    <span>Telefono</span>
+    <span>Fecha de Nacimiento</span>
+    <span>Militancia</span>
+  </div>
+  <article *ngFor="let cliente of clientes">
+    <span>{{cliente.nombre}}</span>
+    <span>{{cliente.telefono}}</span>
+    <span>{{cliente.fechaNac}}</span>
+    <span>{{cliente.militancia}}</span>
+  </article>
+</div>

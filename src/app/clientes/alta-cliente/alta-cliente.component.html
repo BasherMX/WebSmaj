@@ -1,0 +1,24 @@
+<h2>Registro de Asistencia</h2>
+<p>
+  <span>Nombre</span>
+  <input type="text" [(ngModel)]="cliente.nombre" placeholder="ingresa tu nombre">
+</p>
+<p>
+  <span>Telefono</span>
+  <input type="text" [(ngModel)]="cliente.telefono" placeholder="ingresa tu telefono">
+</p>
+<p>
+  <span>Fecha de nacimiento</span>
+  <input type="date" [(ngModel)]="cliente.fechaNac">
+</p>
+<p>
+  <span>¿Eres militante?</span>
+  <select [(ngModel)]="cliente.militancia" >
+    <option *ngFor="let grupo of grupos" value="{{grupo.nombre}}">{{grupo.nombre}}</option>
+  </select>
+</p>
+<p>
+  <button (click)="this.nuevoCliente()">Registrar</button>
+</p>
+<h2 class="tituloDejando">#DejandoHuella</h2>
+<img src="../../../assets/images/logoAJ.png" alt="logoAccionJuvenil">
